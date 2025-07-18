@@ -4,7 +4,9 @@
 
 **Objetivo**: Criar uma solução que permita manipular e monitorar arquivos no **Google Drive**, organizando-os em pastas e atualizando um **painel de controle** em tempo real com informações sobre esses arquivos. O painel de controle será um **Google Sheet** que será automaticamente atualizado sempre que houver alterações nos arquivos ou pastas.
 
-Este projeto integra a **Google Drive API** para manipulação de arquivos no Drive e a **Google Sheets API** para visualização dos dados em um painel interativo (Google Sheets). A solução oferece automação, organização e acompanhamento em tempo real dos documentos.
+Este projeto visa integrar a **Google Drive API** para manipulação de arquivos no Drive e a **Google Sheets API** para visualização dos dados em um painel interativo (Google Sheets). A solução oferece automação, organização e acompanhamento em tempo real dos documentos.
+
+Além disso, o projeto vai facilitar uma visualização mais estratégica e um controle de todos os dados, não só do monday, mas também no drive.
 
 ---
 
@@ -15,6 +17,9 @@ Este projeto integra a **Google Drive API** para manipulação de arquivos no Dr
 ✔ **Atualizar um painel no Google Sheets** com informações sobre os arquivos de forma estruturada.  
 ✔ **Automatizar o processo de sincronização** entre o Google Drive e o Google Sheets.  
 ✔ **Organizar e mover arquivos** de forma programática entre pastas dentro do Google Drive.
+✔ **Permitir uma manipulação mais simples** tanto dos arquivos quanto das pastas por projeto.
+✔ **Facilitar** a visualização dos dados a partir de um dashboard interativo conectado ao drive.
+✔ **Centralizar a informação** permitindo que qualquer arquivo seja acompanhando e encontrado com facilidade.
 
 ---
 
@@ -28,19 +33,9 @@ Este projeto integra a **Google Drive API** para manipulação de arquivos no Dr
 | **gspread** | Biblioteca para facilitar o manuseio de Google Sheets em Python |
 | **Google OAuth 2.0** | Protocolo de autenticação utilizado para garantir acesso seguro às APIs do Google |
 | **requests** | Biblioteca para realizar requisições HTTP para APIs externas (caso necessário) |
-
+| **Streamlit** | Biblioteca para gerar a visualização em formato de dashboard, com Python |
+ 
 ---
-
-
-
----
-
----
----
----
----
----
-
 
 ## 📁 Estrutura do Projeto - Google Drive Dashboard
 
